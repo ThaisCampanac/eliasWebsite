@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navigation from '../components/Navigation'
 import Service from '../components/Service'
+import GalleryWall from '../components/Gallery-Wall'
 import servicephoto from '../assets/service-asset.jpg'
 
 export default function Home() {
@@ -43,6 +44,10 @@ export default function Home() {
         <h3 className='subtitle'>
           Our Work
         </h3>
+        <h4 className='subtitle2'>
+          This is a showcase of all completed work done by the company
+        </h4>
+        <GalleryWall></GalleryWall>
       </div>
       <div id='meet-the-team' className='Meet-the-team'>
         <h3 className='subtitle'>
