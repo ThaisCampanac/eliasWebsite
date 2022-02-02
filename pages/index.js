@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation'
 import Service from '../components/Service'
 import GalleryWall from '../components/Gallery-Wall'
 import TeamMembers from '../components/Team-Members'
+import Testimony from '../components/Testimony'
 import servicephoto from '../assets/service-asset.jpg'
 
 export default function Home() {
@@ -69,6 +70,11 @@ export default function Home() {
                 <h3 className='subtitle'>
                     Client Testimonials
                 </h3>
+                <div className='testimonies'>
+                    <Testimony quote='Love the product and what they have done' author='Darth Vador'></Testimony>
+                    <Testimony quote='Love the product and what they have done' author='Darth Vador'></Testimony>
+                    <Testimony quote='Love the product and what they have done' author='Darth Vador'></Testimony>
+                </div>
             </div>
             <div id='contact' className='Contact-us'>
                 <div className='english'>
