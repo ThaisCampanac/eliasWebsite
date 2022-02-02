@@ -15,3 +15,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+div{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    text-align: center;
+}
