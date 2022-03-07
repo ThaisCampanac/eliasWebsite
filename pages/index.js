@@ -4,6 +4,7 @@ import Service from '../components/Service'
 import GalleryWall from '../components/Gallery-Wall'
 import TeamMembers from '../components/Team-Members'
 import Testimony from '../components/Testimony'
+import ContactForm from '../components/Contact-Form'
 import servicephoto from '../assets/service-asset.jpg'
 
 export default function Home() {
@@ -77,15 +78,14 @@ export default function Home() {
                 </div>
             </div>
             <div id='contact' className='Contact-us'>
+                <h3 className='subtitle2'>
+                    Contact Us
+                </h3>
                 <div className='english'>
-                    <h3 className='subtitle2'>
-                        Contact Us
-                    </h3>
+                    <ContactForm></ContactForm>
                 </div>
                 <div className='spanish'>
-                    <h3 className='subtitle2'>
-                        Contact Us
-                    </h3>
+                    
                 </div>
             </div>
         </div>
