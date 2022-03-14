@@ -7,6 +7,12 @@ body {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 600px) {
+    h1{
+        font-size: 30px !important;
+    }
+  }
+
 a {
   color: inherit;
   text-decoration: none;
@@ -16,15 +22,36 @@ a {
   box-sizing: border-box;
 }
 
+.main-wrapper{
+    background-image: linear-gradient(white, rgba(117, 117, 111, 0.185));
+    height: 100vh;
+}
+.under-construction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #090073;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    width: 400px;
+    
+}
+
 div{
     width: auto;
     height: auto;
-    margin: auto;
 }
 h1 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     text-align: center;
+}
+h2{
+    text-align: center;
+    margin-top: -10px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    margin-top: -20px;
 }
