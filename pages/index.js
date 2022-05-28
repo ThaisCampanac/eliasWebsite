@@ -9,7 +9,7 @@ import servicephoto from '../assets/service-asset.jpg'
 
 export default function Home() {
     return (
-        <div className={styles.container}>
+        <div className="body">
             <Navigation></Navigation>
             <div id='home' className='Homepage'>
                 <h1 className='Company-name'>
