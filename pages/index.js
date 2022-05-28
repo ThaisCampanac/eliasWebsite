@@ -12,12 +12,14 @@ export default function Home() {
         <div className="body">
             <Navigation></Navigation>
             <div id='home' className='Homepage'>
-                <h1 className='Company-name'>
-                    C I C S
-                </h1>
-                <h2 className='Type-contractor'>
-                    General Contractor
-                </h2>
+                <div className='homepage-wrapper'>
+                    <h1 className='Company-name'>
+                        C I C S
+                    </h1>
+                    <h2 className='Type-contractor'>
+                        General Contractor
+                    </h2>
+                </div>
             </div>
             <div id='about-us' className='About-us'>
                 <h3 className='subtitle'>
